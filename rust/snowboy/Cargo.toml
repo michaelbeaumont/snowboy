@@ -1,0 +1,7 @@
+[package]
+name = "snowboy"
+version = "0.1.0"
+authors = ["michaelbeaumont <mjboamail@gmail.com>"]
+
+[dependencies]
+snowboy-sys = { path = "../snowboy-sys" }

@@ -1,0 +1,11 @@
+[package]
+name = "snowboy-sys"
+version = "0.1.0"
+authors = ["michaelbeaumont <mjboamail@gmail.com>"]
+build = "build.rs"
+
+[dependencies]
+libc = "*"
+
+[build-dependencies]
+cc = "*"
